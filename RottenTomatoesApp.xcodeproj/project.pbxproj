@@ -12,6 +12,8 @@
 		05D65EE41BB71ADC00A0E44A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D65EE21BB71ADC00A0E44A /* Main.storyboard */; };
 		05D65EE61BB71ADC00A0E44A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05D65EE51BB71ADC00A0E44A /* Assets.xcassets */; };
 		05D65EE91BB71ADC00A0E44A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D65EE71BB71ADC00A0E44A /* LaunchScreen.storyboard */; };
+		05D65EF11BB71B8F00A0E44A /* RottenTomatoesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D65EF01BB71B8F00A0E44A /* RottenTomatoesTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		05D65EF31BB7257300A0E44A /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D65EF21BB7257300A0E44A /* MovieTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		05D65EE51BB71ADC00A0E44A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05D65EE81BB71ADC00A0E44A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05D65EEA1BB71ADC00A0E44A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05D65EF01BB71B8F00A0E44A /* RottenTomatoesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RottenTomatoesTableViewController.swift; sourceTree = "<group>"; };
+		05D65EF21BB7257300A0E44A /* MovieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 				05D65EDE1BB71ADC00A0E44A /* AppDelegate.swift */,
 				05D65EE01BB71ADC00A0E44A /* ViewController.swift */,
 				05D65EE21BB71ADC00A0E44A /* Main.storyboard */,
+				05D65EF01BB71B8F00A0E44A /* RottenTomatoesTableViewController.swift */,
 				05D65EE51BB71ADC00A0E44A /* Assets.xcassets */,
 				05D65EE71BB71ADC00A0E44A /* LaunchScreen.storyboard */,
 				05D65EEA1BB71ADC00A0E44A /* Info.plist */,
+				05D65EF21BB7257300A0E44A /* MovieTableViewCell.swift */,
 			);
 			path = RottenTomatoesApp;
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				05D65EE11BB71ADC00A0E44A /* ViewController.swift in Sources */,
+				05D65EF11BB71B8F00A0E44A /* RottenTomatoesTableViewController.swift in Sources */,
+				05D65EF31BB7257300A0E44A /* MovieTableViewCell.swift in Sources */,
 				05D65EDF1BB71ADC00A0E44A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
